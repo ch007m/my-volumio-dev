@@ -1,0 +1,18 @@
+[
+  {"service":"webradio","name":"Classic21","uri":"https://radios.rtbf.be/classic21-128.mp3"},
+  {"service":"webradio","name":"Pure","uri":"https://radios.rtbf.be/pure-128.mp3"},
+  {"service":"webradio","name":"Nostalgie","uri":"http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3"},
+  {"service":"webradio","name":"Vivacite Charleroi","uri":"https://radios.rtbf.be/vivacharleroi-128.mp3"},
+  {"service":"webradio","name":"La Premiere","uri":"https://radios.rtbf.be/laprem1ere-128.mp3"},
+  {"service":"webradio","name":"NRJ","uri":"http://nrjbe.ice.infomaniak.ch/nrjbe-high.mp3"},
+  {"service":"webradio","name":"Bel RTL","uri":"http://audiostream.rtl.be/belrtl128"},
+  {"service":"webradio","name":"Contact","uri":"http://audiostream.rtl.be/contactfr192"},
+  {"service":"webradio","name":"Musique 3","uri":"https://radios.rtbf.be/musiq3-128.mp3"},
+  {"service":"webradio","name":"RTL2","uri":"http://icecast.rtl.fr:80/rtl2-1-44-128"},
+  {"service":"webradio","name":"Europe1","uri":"http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3"},
+  {"service":"webradio","name":"Noel - Vivacite","uri":"https://radios.rtbf.be/wr-viva-xmas-128.mp3"},
+  {"service":"webradio","name":"Noel - Nostalgie","uri":"http://nostalgielastory.ice.infomaniak.ch/nostalgielastory-128.mp3"},
+  {"service":"webradio","name":"Nostalgie 80","uri":"http://nostalgie80.ice.infomaniak.ch/nostalgie80-128.mp3"},
+  {"service":"webradio","name":"Nostalgie 90","uri":"http://nostalgie90.ice.infomaniak.ch/nostalgie90-128.mp3"},
+  {"service":"webradio","name":"Nostalgie - Chanson Francaise","uri":"http://nostalgiechansonfrancaise.ice.infomaniak.ch/nostalgiechansonfrancaise-128.mp3"}
+]
