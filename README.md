@@ -11,5 +11,5 @@ VBoxManage convertfromraw --format VDI ${image_file}.img ${image_file}.vdi
 ```
 - Next, mount the VDI file and create a VM
 ```bash
-
+ ./create-vm.sh -i /path/to/vdi_folder
 ```
