@@ -104,7 +104,7 @@ vboxmanage modifyvm ${VIRTUAL_BOX_NAME} --usb "$USB";
 vboxmanage modifyvm ${VIRTUAL_BOX_NAME} --vrde on;
 
 echo "######### Resize VDI disk to 15GB"
-vboxmanage modifyhd ${IMAGE_DIR}/disk.vdi --resize ${DISK}
+vboxmanage modifyhd ${IMAGE_DIR}/${VDI_NAME}.vdi --resize ${DISK}
 
 echo "######### Create IDE Controller, attach vdi disk"
 vboxmanage storagectl ${VIRTUAL_BOX_NAME} --name "IDE Controller" --add ide --hostiocache on
@@ -113,6 +113,10 @@ vboxmanage storageattach ${VIRTUAL_BOX_NAME} --storagectl "IDE Controller" --por
 
 echo "######### Mount shared volume named shared between VM and host at this path "$HOST_PATH" "
 vboxmanage sharedfolder add ${VIRTUAL_BOX_NAME} --name shared --hostpath ${HOST_PATH} --automount
+
+echo "########## Add guest OS DNS"
+VBoxManage modifyvm ${VIRTUAL_BOX_NAME} --natdnshostresolver1 on
+
 
 echo "######### start vm and configure SSH Port forward"
 vboxmanage startvm ${VIRTUAL_BOX_NAME} --type headless
