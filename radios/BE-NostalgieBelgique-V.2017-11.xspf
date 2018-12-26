@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>* * * * * Belgique : Nostalgie * * * * *</title>
+			<image>https://2.bp.blogspot.com/-pTcvgk_ZRFA/Wf33PkS6W6I/AAAAAAAAF0E/akoP-8gAkPcoBzwzCTs3sMetL5S62Gi3ACKgBGAs/s1600/Nostalgie%2B-%2BBouquet%2B%253B%2B%2528002%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Les Radios &amp; Webradios -----</title>
+			<image>https://3.bp.blogspot.com/-yq9A4s8z2Ec/Wf31N4ZloGI/AAAAAAAAFzo/VOMb0oFGC4YsN5JvhaR2hPV82ZRqh5YlQCKgBGAs/s1600/Radios%2B%2526%2BWebradios%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3</location>
+			<title>Nostalgie Belgique</title>
+			<album>Nostalgie Belgique</album>
+			<image>https://1.bp.blogspot.com/-D0iqzBBIvQY/Wf31j2YGApI/AAAAAAAAFzw/l57QA-ETZfsDizNe7akaWX3ilAuSr96mgCKgBGAs/s1600/Nostalgie%2BBelgique.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgie60.ice.infomaniak.ch/nostalgie60-128.mp3</location>
+			<title>Nostalgie 60</title>
+			<album>Nostalgie 60</album>
+			<image>https://4.bp.blogspot.com/-Fw1emrsU7GY/Wf3zlKJZgII/AAAAAAAAFy0/q_N8EolEG5AOkpwL4UMvwZbrJwIIx47ngCKgBGAs/s1600/Nostalgie%2B60%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgie70.ice.infomaniak.ch/nostalgie70-128.mp3</location>
+			<title>Nostalgie 70</title>
+			<album>Nostalgie 70</album>
+			<image>https://1.bp.blogspot.com/-v-_jLWUQ27g/Wf3zlFXQ56I/AAAAAAAAFy0/bMnUQl5IrKMe2H0KhuinjY1-YsLzHQIWgCKgBGAs/s1600/Nostalgie%2B70%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgie80.ice.infomaniak.ch/nostalgie80-128.mp3</location>
+			<title>Nostalgie 80</title>
+			<album>Nostalgie 80</album>
+			<image>https://4.bp.blogspot.com/-gtZpftMPmx8/Wf3zlFz1jbI/AAAAAAAAFy0/BS8rwTB68WELroL_p0vE4YoW3c6EHWCOwCKgBGAs/s1600/Nostalgie%2B80%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgie90.ice.infomaniak.ch/nostalgie90-128.mp3</location>
+			<title>Nostalgie 90</title>
+			<album>Nostalgie 90</album>
+			<image>https://1.bp.blogspot.com/--Lj48-SW2io/Wf3zlPcOyrI/AAAAAAAAFy0/Tq5uE_XrUlgjHQBvnpoqz1Z5g1dVDSG-ACKgBGAs/s1600/Nostalgie%2B90%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://agetendre.ice.infomaniak.ch/agetendre-128.mp3</location>
+			<title>Nostalgie Age Tendre</title>
+			<album>Nostalgie Age Tendre</album>
+			<image>https://3.bp.blogspot.com/-YbfmvAW83sY/Wf3zzC9yjGI/AAAAAAAAFy4/4CY2x3dhbaQq1e5GpYfbU__CK0prLmfCQCKgBGAs/s1600/Nostalgie%2BAge%2BTendre%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiespecial2.ice.infomaniak.ch/nostalgiespecial2.mp3</location>
+			<title>Nostalgie Camping</title>
+			<album>Nostalgie Camping</album>
+			<image>https://2.bp.blogspot.com/-Cvj9Yn6-G6o/Wf3zzPZuu7I/AAAAAAAAFy4/QqR2S4Tl9hIaPoBqInvRGr6yAzhCno7QACKgBGAs/s1600/Nostalgie%2BCamping%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiechansonfrancaise.ice.infomaniak.ch/nostalgiechansonfrancaise-128.mp3</location>
+			<title>Nostalgie Chansons Françaises</title>
+			<album>Nostalgie Chansons Francaises</album>
+			<image>https://4.bp.blogspot.com/-NIbhYeh0ubs/Wf3zzJhT0QI/AAAAAAAAFy4/5IiPyHlqeXcqsLGPS9d_p3CdHbY_Z9RBgCKgBGAs/s1600/Nostalgie%2BChansons%2BFrancaise%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cinema.ice.infomaniak.ch/cinema-128.mp3</location>
+			<title>Nostalgie Cinema</title>
+			<album>Nostalgie Cinema</album>
+			<image>https://2.bp.blogspot.com/-lSS6tBs7p_c/Wf3zzKnzmrI/AAAAAAAAFy4/YeM2pUvA_CEGKSToQs_ZihYuu0jwarDzwCKgBGAs/s1600/Nostalgie%2BCinema%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://dance80.ice.infomaniak.ch/dance80-128.mp3</location>
+			<title>Nostalgie Dance 80</title>
+			<album>Nostalgie Dance 80</album>
+			<image>https://4.bp.blogspot.com/-2zPAxGoDH-o/Wf30GNusD0I/AAAAAAAAFzA/Z1XiTorwq4U6Sa71oipVo0Ol6H0NBYZqgCKgBGAs/s1600/Nostalgie%2BDance%2B80%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://dance90.ice.infomaniak.ch/dance90-128.mp3</location>
+			<title>Nostalgie Dance 90</title>
+			<album>Nostalgie Dance 90</album>
+			<image>https://1.bp.blogspot.com/-QPXNyfrb_Zs/Wf30GGBSQ2I/AAAAAAAAFzA/wNPe9hVfeCkJJ-a-oTbNV-nWffdm2nvmgCKgBGAs/s1600/Nostalgie%2BDance%2B90%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://italia.ice.infomaniak.ch/italia-128.mp3</location>
+			<title>Nostalgie Italia</title>
+			<album>Nostalgie Italia</album>
+			<image>https://4.bp.blogspot.com/-jr2ijqNrOi8/Wf30GOzLPfI/AAAAAAAAFzA/e3c6ew3Z-mwebFeKkllVZ0lj40jKSnVoQCKgBGAs/s1600/Nostalgie%2BItalia%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://jazz.ice.infomaniak.ch/jazz-128.mp3</location>
+			<title>Nostalgie Jazz</title>
+			<album>Nostalgie Jazz</album>
+			<image>https://2.bp.blogspot.com/-WGbZ8-q6hIc/Wf30GH4B6bI/AAAAAAAAFzA/HWMr-qrvljoFjChFWXWtrV56zuc7QqQ7gCKgBGAs/s1600/Nostalgie%2BJazz%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgielastory.ice.infomaniak.ch/nostalgielastory-128.mp3</location>
+			<title>Nostalgie La Story</title>
+			<album>Nostalgie La Story</album>
+			<image>https://4.bp.blogspot.com/-pe5Jv3KRULA/Wf30XXOHLyI/AAAAAAAAFzI/lLwT11RLDwwDok5Y1XYn6MkR8HDmjNLeQCKgBGAs/s1600/Nostalgie%2BLa%2BStory%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgielove.ice.infomaniak.ch/nostalgielove-128.mp3</location>
+			<title>Nostalgie Love</title>
+			<album>Nostalgie Love</album>
+			<image>https://1.bp.blogspot.com/-DRkUda-Y2sw/Wf30XXSxV5I/AAAAAAAAFzI/HtbLxHeT9-8TNEiwRCU_Mw5N-w7CcjNiQCKgBGAs/s1600/Nostalgie%2BLove%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://newwave.ice.infomaniak.ch/newwave-128.mp3</location>
+			<title>Nostalgie New Wave</title>
+			<album>Nostalgie New Wave</album>
+			<image>https://2.bp.blogspot.com/-T0ulzACniH4/Wf30Xb-4lGI/AAAAAAAAFzI/bqV3zZ7mQ442fJTzH619XlKp7msazuswwCKgBGAs/s1600/Nostalgie%2BNews%2BWave%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://pop80.ice.infomaniak.ch/pop80-128.mp3</location>
+			<title>Nostalgie Pop 80</title>
+			<album>Nostalgie Pop 80</album>
+			<image>https://3.bp.blogspot.com/-u3w1IIV0dfg/Wf30jfZGcyI/AAAAAAAAFzM/8CxfXSZu0ogVHNhyD9MNw8qGMYvwoeQjwCKgBGAs/s1600/Nostalgie%2BPop%2B80%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://pop90.ice.infomaniak.ch/pop90-128.mp3</location>
+			<title>Nostalgie Pop 90</title>
+			<album>Nostalgie Pop 90</album>
+			<image>https://3.bp.blogspot.com/-7hHDD5Sl_CU/Wf30jVCxlzI/AAAAAAAAFzM/xbJUsJobHRESAgXE559xTP2DX8-q8dFxQCKgBGAs/s1600/Nostalgie%2BPop%2B90%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rock80.ice.infomaniak.ch/rock80-128.mp3</location>
+			<title>Nostalgie Rock 80</title>
+			<album>Nostalgie Rock 80</album>
+			<image>https://2.bp.blogspot.com/-PzpRSVHpbv8/Wf30jWtw7UI/AAAAAAAAFzM/cWeFta_WwxgT_UwX9CZFzb3vKhdrranSACKgBGAs/s1600/Nostalgie%2BRock%2B80%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rock90.ice.infomaniak.ch/rock90-128.mp3</location>
+			<title>Nostalgie Rock 90</title>
+			<album>Nostalgie Rock 90</album>
+			<image>https://3.bp.blogspot.com/-B_M0s98c8hY/Wf30jZgKsYI/AAAAAAAAFzM/f9rtHF2X8aQLo5XKvyYB0DdjXh38Oa2IQCKgBGAs/s1600/Nostalgie%2BRock%2B90%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgierockparty.ice.infomaniak.ch/nostalgierockparty-128.mp3</location>
+			<title>Nostalgie Rock Classics</title>
+			<album>Nostalgie Rock Classics</album>
+			<image>https://3.bp.blogspot.com/-5xHzrtewgYo/Wf300sCuM3I/AAAAAAAAFzU/W8siV8yoRr87D14ewnbBq3musaS6VpFyACKgBGAs/s1600/Nostalgie%2BRock%2BClassics%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiesoulparty.ice.infomaniak.ch/nostalgiesoulparty-128.mp3</location>
+			<title>Nostalgie SoulParty</title>
+			<album>Nostalgie SoulParty</album>
+			<image>https://1.bp.blogspot.com/-dnhj_l94bJE/Wf300lR_tJI/AAAAAAAAFzU/EQD8YPVQQ6Qom6FM3WUz95zsmHUWT-oJQCKgBGAs/s1600/Nostalgie%2BSoulparty%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiespecial.ice.infomaniak.ch/nostalgiespecial-128.mp3</location>
+			<title>Nostalgie Summer</title>
+			<album>Nostalgie Summer</album>
+			<image>https://2.bp.blogspot.com/-w61QHylSQvo/Wf300nmNtJI/AAAAAAAAFzU/d_YAkVK63JMpQ_vagBCDOyPApNJcXX77gCKgBGAs/s1600/Summer%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgietop1000.ice.infomaniak.ch/nostalgietop1000-128.mp3</location>
+			<title>Le Meilleur de Nostalgie</title>
+			<album>Le Meilleur de Nostalgie</album>
+			<image>https://4.bp.blogspot.com/-tudRtBm5u7o/Wf30-yl76kI/AAAAAAAAFzc/4MaZvbeWfjkiPxFvsQO8eMgEoGXNqfdCACKgBGAs/s1600/Le%2BMeilleur%2Bde%2BNostalgie%2B-%2BWebradio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
+			<vlc:item tid="24"/>
+			<vlc:item tid="25"/>
+	</extension>
+</playlist>

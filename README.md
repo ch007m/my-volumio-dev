@@ -60,14 +60,148 @@ You can find it in: /home/volumio/volumio-plugins/plugins/music_service/deezer
 ```
 
 - The new plugin created is available here `/home/volumio/volumio-plugins/plugins/music_service/deezer`
-- 
 
 ```bash
 Generate private/public key and import it under github
-cd ~/.ssh && ssh-keygen
+sh-keygen -t rsa -b 4096 -C "ch007m@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/volumio/.ssh/id_rsa):
+Created directory '/home/volumio/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/volumio/.ssh/id_rsa.
+Your public key has been saved in /home/volumio/.ssh/id_rsa.pub.
+The key fingerprint is:
+98:55:9c:53:9e:8f:a9:9f:db:0b:80:6e:12:64:58:79 ch007m@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|      .. ..o.    |
+|     o. E.+. .   |
+|    . o..  .o    |
+|     o + .   +   |
+|      + S . o .  |
+|       o   o     |
+|      . o . .    |
+|       o   . +   |
+|            +.o. |
++-----------------+
 
 git clone git@github.com:ch007m/volumio-plugins.git
+cd volumio-plugins
 
+Welcome to the Volumio Plugin Creator!
+You have to decide which category your plugin belongs to, then you have to select a name for it, leave us the rest ;)
+Warning: make meaningful choices, you cannot change them later!
+
+Creating a new plugin
+? Please select the Plugin Category music_service
+? Please insert a name for your plugin deezer
+NAME: deezer CATEGORY: music_service
+Copying sample files
+? Please insert your name Charles Moulliard
+? Insert a brief description of your plugin (100 chars) Deezer Volumio Plugin
+Installing dependencies locally
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN deezer@1.0.0 No repository field.
+
+
+Congratulation, your plugin has been succesfully created!
+You can find it in: /home/volumio/volumio-plugins/plugins/music_service/deezer
+
+cd /home/volumio/volumio-plugins/plugins/music_service/deezer
+git add ./ & git commit -m "Add new plugin" -a
+
+git config --global user.email "ch007m@gmail.com"
+git config --global user.name "Charles Moulliard"
+git config --global push.default simple
+
+push
+
+volumio plugin refresh
+ls -la /data/plugins/music_service/deezer/
+
+volumio plugin install
+This command will install the plugin on your device
+
+Compressing the plugin
+No modules found, running "npm install"
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN deezer@1.0.0 No repository field.
+
+Plugin succesfully compressed
+Progress: 10
+Status :Downloading plugin
+Progress: 30
+Status :Creating folder on disk
+Progress: 40
+Status :Unpacking plugin
+Progress: 50
+Status :Checking for duplicate plugin
+Progress: 60
+Status :Copying Plugin into location
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 70
+Status :Installing dependencies
+Progress: 90
+Status :Adding plugin to registry
+Progress: 100
+Status :Plugin Successfully Installed
+Done!
+volumio@volumio:~/volumio-plugins/plugins/music_service/deezer$ ls -la /data/plugins/music_service/deezer/
+total 56
+drwxr-xr-x  4 volumio volumio 4096 Dec 23 19:40 .
+drwxr-xr-x  3 volumio volumio 4096 Dec 23 19:40 ..
+-rw-r--r--  1 volumio volumio   87 Dec 23 19:28 UIConfig.json
+-rw-r--r--  1 volumio volumio    6 Dec 23 19:28 config.json
+drwxr-xr-x  2 volumio volumio 4096 Dec 23 19:40 i18n
+-rw-r--r--  1 volumio volumio 5770 Dec 23 19:29 index.js
+-rw-r--r--  1 volumio volumio  376 Dec 23 19:29 install.sh
+drwxr-xr-x 24 volumio volumio 4096 Dec 23 19:40 node_modules
+-rw-r--r--  1 volumio volumio 5513 Dec 23 19:40 package-lock.json
+-rw-r--r--  1 volumio volumio  428 Dec 23 19:29 package.json
+-rw-r--r--  1 volumio volumio    3 Dec 23 19:28 requiredConf.json
+-rw-r--r--  1 volumio volumio   99 Dec 23 19:28 uninstall.sh
 
 ```
 

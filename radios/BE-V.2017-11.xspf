@@ -1,0 +1,1363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>* * * * * Radios Belges Francophones * * * * *</title>
+			<image>https://3.bp.blogspot.com/-ybIPf3ckoQE/WF51-91H_eI/AAAAAAAAFL0/hEZxbI7M2mo6pdKhUEsCuAH7XsLDYkDgQCLcB/s1600/Carte%2B-%2BFrancophone%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Nationales -----</title>
+			<image>http://www.carte-du-monde.net/pays/Belgique/carte-drapeaux-belgique.jpg</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://audiostream.rtl.be/belrtl128</location>
+			<title>Bel RTL</title>
+			<album>Bel RTL</album>
+			<image>https://2.bp.blogspot.com/-SL4P-6Dwt9Y/Wftx12zqixI/AAAAAAAAFYU/CNcrQkA9DVADFM8vTQm4QMXTmFqQW4iwgCKgBGAs/s1600/Bel-RTL.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/classic21-128.mp3</location>
+			<image>https://2.bp.blogspot.com/-r__i6rYfGXU/WftyspK7MNI/AAAAAAAAFYs/fNHIKNfWp4U5-6EYOKy5gvXEuPk2H2QdgCKgBGAs/s1600/Classic%2B21.jpg</image>
+			<title>Classic 21</title>
+			<album>Classic 21</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://dhradio.ice.infomaniak.ch/dhradio-192.mp3</location>
+			<title>DH Radio</title>
+			<album>DH Radio</album>
+			<image>https://2.bp.blogspot.com/-Jlp-hQawgco/WftyNynWYbI/AAAAAAAAFYg/JdiMqsQmhdcyWDgRjxBcwhxmzIwIkOelgCKgBGAs/s1600/DH%2BRadio.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://live.funradio.be/funradiobe-high.mp3</location>
+			<title>Fun Radio Belgique</title>
+			<album>Fun Radio Belgique</album>
+			<image>https://4.bp.blogspot.com/-Fh3JvpSOHho/WftyN4X_1XI/AAAAAAAAFYg/pWtA1CkQ0FAgv3k0rU6CPcjzmZw9aXv6ACKgBGAs/s1600/Fun%2BRadio%2BBelgique.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/laprem1ere-128.mp3</location>
+			<title>La Première</title>
+			<album>La Première</album>
+			<image>https://4.bp.blogspot.com/-4bex_UUsGto/Wftysv0AmwI/AAAAAAAAFYs/6cT0Pk9avdo7qRDHRRrrWsj8u8u3AKSXACKgBGAs/s1600/La%2BPremi%25C3%25A8re.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/musiq3-128.mp3</location>
+			<title>Musiq&#39;3</title>
+			<album>Musiq 3</album>
+			<image>https://3.bp.blogspot.com/-j3fWUDiEOBo/Wftysrb-9PI/AAAAAAAAFYs/xaywDNxnsPwa9k8lPC8mTOLu5pshSyjwwCKgBGAs/s1600/Musiq%25273.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiepremium.ice.infomaniak.ch/nostalgiepremium-128.mp3</location>
+			<title>Nostalgie Belgique</title>
+			<album>Nostalgie Belgique</album>
+			<image>https://4.bp.blogspot.com/-yOUbps1wO00/WftyC1NDSLI/AAAAAAAAFYc/-9_EHy-oSkk2en6WSb8Z2s82mISvggb-ACKgBGAs/s1600/Nostalgie%2BBelgique.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nrjbe.ice.infomaniak.ch/nrjbe-high.mp3</location>
+			<title>NRJ Belgique</title>.
+			<album>NRJ Belgique</album>
+			<image>https://2.bp.blogspot.com/-y5yhlITRAiY/WftyC3BH-XI/AAAAAAAAFYc/R_PcdVUjp2oAlwNHOUJib1xSOm87HBISwCKgBGAs/s1600/NRJ%2BBelgique.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/pure-128.mp3</location>
+			<title>Pure FM</title>
+			<album>Pure FM</album>
+			<image>https://3.bp.blogspot.com/-AX9b6En1uFI/WftyNwftsCI/AAAAAAAAFYg/qIL4jq4rQ4UmBugyEhpuOckpbcBQhbcfACKgBGAs/s1600/Pure%2BFM.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://audiostream.rtl.be/contactfr192</location>
+			<title>Radio Contact</title>
+			<album>Radio Contact</album>
+			<image>https://1.bp.blogspot.com/-aH5mItN6q1U/Wftx18kybqI/AAAAAAAAFYU/FBs03nl-weMQQAGMWKTzIzcYC6L6gVccQCKgBGAs/s1600/Radio%2BContact.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/rtbfi-128.mp3</location>
+			<title>RTBF International</title>
+			<album>RTBF International</album>
+			<image>https://4.bp.blogspot.com/-PHS1g5-V4CA/Wft4bKhX_eI/AAAAAAAAFa0/fRI9VotiXKQ9jluUer5dRnmGvBFlLpMXwCKgBGAs/s1600/RTBF%2BInternational.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivabxl-128.mp3</location>
+			<title>VivaCité Bruxelles</title>
+			<album>VivaCite Bruxelles</album>
+			<image>https://3.bp.blogspot.com/-oeJIvpA4Nhs/Wft4I50mF3I/AAAAAAAAFas/SogUnsBbfDEnKO2Z-77CT5CbO2CB3T1CwCKgBGAs/s1600/VivaCit%25C3%25A9%2BBruxelles%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivacharleroi-128.mp3</location>
+			<title>VivaCité Charleroi</title>
+			<album>VivaCite Charleroi</album>
+			<image>https://2.bp.blogspot.com/-VczzLlNOrhQ/Wft4I2rSaYI/AAAAAAAAFas/E-BBfSYD27gjdn2q00_0at0OO1upTTBtQCKgBGAs/s1600/VivaCit%25C3%25A9%2BCharleroi%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivahainaut-128.mp3</location>
+			<title>VivaCité Hainaut</title>
+ 			<album>VivaCite Hainaut</album>
+			<image>https://1.bp.blogspot.com/-TQcL17HoOgA/Wft4I3wlV7I/AAAAAAAAFas/tLMb0WVdk60Uzn7YV5yEtLZ88M8tZ5ZowCKgBGAs/s1600/VivaCit%25C3%25A9%2BHainaut%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivaliege-128.mp3</location>
+			<title>VivaCité Liege</title>
+			<album>VivaCite Liege</album>
+			<image>https://4.bp.blogspot.com/-EKKZS6lsP0Y/Wft24e6qK3I/AAAAAAAAFZ4/C2FzwdzWyp4aKXDdLwiUAfqy1ij1U1f6QCKgBGAs/s1600/VivaCit%25C3%25A9%2BLi%25C3%25A8ge%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivalux-128.mp3</location>
+			<title>VivaCité Luxembourg</title>
+			<album>VivaCite Luxembourg</album>
+			<image>https://1.bp.blogspot.com/-NXrDqoYBgFc/Wft3LXw9zYI/AAAAAAAAFaE/0a03uwUGbQUtSgbE5nh9dtCouEjcIES4gCKgBGAs/s1600/VivaCit%25C3%25A9%2BLuxembourg%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://radios.rtbf.be/vivanamurbw-128.mp3</location>
+			<title>VivaCité Namur-Brabant-Wallon</title>
+			<image>https://4.bp.blogspot.com/-v3j8TcTFr1A/Wft4I9g9vPI/AAAAAAAAFas/agbytZjvQ7QR8g3RzO1mu6_8HWMf1635QCKgBGAs/s1600/VivaCit%25C3%25A9%2BNamur%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Bruxelles -----</title>
+			<image>https://3.bp.blogspot.com/-55uHU21-_fc/WF5vq6G0MBI/AAAAAAAAFK4/LBaqel8pAZsPGpvwCc91B2wMlq92YZGCwCLcB/s1600/Carte%2B-%2BRegion%2BBruxelles-Capitale%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://arabelfm.ice.infomaniak.ch/arabelprodcastfm.mp3</location>
+			<title>Arabel</title>
+			<album>Arabel</album>
+			<image>https://1.bp.blogspot.com/-m_ykWVI-rRA/Wft5HUw2JMI/AAAAAAAAFbU/1fMTRahzDX404AU0e6-GNZrXnEa5-T3owCKgBGAs/s1600/Arabel%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://77.67.17.108:1043/</location>
+			<title>BXFM</title>
+			<album>BXFM</album>
+			<image>https://4.bp.blogspot.com/-c_a-7aE7YD0/Wft5HSRWMgI/AAAAAAAAFbU/nF45-ZUEQAw7BNeTXA07uowBaZOJdcfZwCKgBGAs/s1600/BXFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://onair.goldfm.be:1061/goldfm.mp3</location>
+			<title>Gold FM</title>
+			<album>Gold FM</album>
+			<image>https://4.bp.blogspot.com/-WYxRNNl3x0c/Wft5HZqdrfI/AAAAAAAAFbU/5qCIt4YTPrMiZVRcKm7btsEpv-xiS4OcQCKgBGAs/s1600/Gold%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.domainepublic.net:8000/radioairlibre.ogg</location>
+			<title>Radio Air Libre</title>
+			<album>Radio Air Libre</album>
+			<image>https://4.bp.blogspot.com/-fhfxXmrrAD4/Wft6pb-ICSI/AAAAAAAAFb0/YGK6QJUO4mweUySJDci9renHd3K1QmZmQCKgBGAs/s1600/Radio%2BAir%2BLibre%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://shoutcast2.wirelessbelgie.be:8310/;stream.mp3</location>
+			<title>Radio Alma</title>
+			<album>Radio Alma</album>
+			<image>https://1.bp.blogspot.com/-AwA4lJ5Ke-g/Wft6pTE-IjI/AAAAAAAAFb0/bwZRkguyXtQRmAysRKI2rI9c18eCmXF1ACKgBGAs/s1600/Radio%2BAlma%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streamer.radiocampus.be:8000/stream.mp3</location>
+			<title>Radio Campus</title>
+			<album>Radio Campus</album>
+			<image>https://1.bp.blogspot.com/-YPOWGvD4wYk/WfzS6cXhHkI/AAAAAAAAFdE/nxKmRhr43ksOGMagxdTQ90h2PKlw6sXCQCKgBGAs/s1600/Radio%2BCampus%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiojudaica.ice.infomaniak.ch/radiojudaica-128.mp3</location>
+			<title>Radio Judaica</title>
+			<album>Radio Judaica</album>
+			<image>https://4.bp.blogspot.com/-iTIOfUgZFnc/WfzS6cDihDI/AAAAAAAAFdE/BcEA_G0uixcL2D0LQfH4NcM0A010pNo6ACKgBGAs/s1600/Radio%2BJudaica%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiokif2.ice.infomaniak.ch/radiokif2-128.mp3</location>
+			<title>Radio K.I.F.</title>
+			<album>Radio K.I.F.</album>
+			<image>https://4.bp.blogspot.com/-35Nd8LCs-H8/WfzS6dDrDcI/AAAAAAAAFdE/2-7_x0ZmE2MD2DSTxHCr8dR5lE2eqhyLgCKgBGAs/s1600/Kif%2BRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.domainepublic.net:8000/radiopanik.ogg</location>
+			<title>Radio Panik</title>
+			<album>Radio Panik</album>
+			<image>https://1.bp.blogspot.com/-5h2QQBAyE9o/Wf2KkpPqN9I/AAAAAAAAFqU/PiPrly7J5I0vxG885yIN8tJxITgNe8sbwCKgBGAs/s1600/Radio%2BPanik%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rcf.streamakaci.com/rcfbruxelles.mp3</location>
+			<title>R.C.F. Bruxelles</title>
+			<album>R.C.F. Bruxelles</album>
+			<image>https://1.bp.blogspot.com/-P7uVSa2-WnE/WfzU7W5D8EI/AAAAAAAAFdk/CWQx5kX2ZJglo1hCOZj-184UAFBtjB6kgCKgBGAs/s1600/RCF%2BBruxelles%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vibrationbelgique.ice.infomaniak.ch/vibrationbelgique-high</location>
+			<title>Vibration Bruxelles</title>
+			<album>Vibration Bruxelles</album>
+			<image>https://3.bp.blogspot.com/-RVouB1nF5rc/WfzS6XJM4CI/AAAAAAAAFdE/prVPPwx-u7IuNMRKvAN4qRJUchCAp-H4wCKgBGAs/s1600/Vibration%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Brabant-Wallon -----</title>
+			<image>https://1.bp.blogspot.com/-QgT32FkKRNA/WF5wR5K-ayI/AAAAAAAAFK8/AX0Cc0yv_a8vpR8jh7uSTvcj_ODTK9QfACLcB/s1600/Carte%2B-%2BProvince%2Bdu%2BBrabant%2BWallon%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://antipode.belstream.net/antipode128.mp3</location>
+			<title>Antipode</title>
+			<album>Antipode</album>
+			<image>https://4.bp.blogspot.com/-5c2kd6RArsY/WftzaQ-WewI/AAAAAAAAFZI/7W7ddOFR4XQY1sEWkAlMyB7vBJUsEf5sQCKgBGAs/s1600/Antipode%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://87.98.189.101:80/</location>
+			<title>Emotion</title>
+			<album>Emotion</album>
+			<image>https://3.bp.blogspot.com/-EehaLR1yf3A/WfzV3uz8vgI/AAAAAAAAFeM/sN7RK8bZghAwDQVOCU0_grSuFdNgNdfNwCKgBGAs/s1600/Radio%2BEmotion%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.domainepublic.net:8000/lnfm.ogg</location>
+			<title>LN FM</title>
+			<album>LN FM</album>
+			<image>https://4.bp.blogspot.com/-mfm3Z4Awtzk/WfzV3rhB5MI/AAAAAAAAFeM/6zp0MqXfUfMSlz9wYmU8uVnrl5NZUhU7QCKgBGAs/s1600/LNFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streammelodie.dgnet.be:8008</location>
+			<title>Melodie FM</title>
+			<album>Melodie FM</album>
+			<image>https://3.bp.blogspot.com/-T86hH62ZzQQ/WfzV3pUd-MI/AAAAAAAAFeM/yPjfdFEoQrgbf6vyZD9yJ0lpiafGn-bOACKgBGAs/s1600/Melodie%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://france1.coollabel-productions.com:2199/tunein/radiopassionfm173.asx</location>
+			<title>Passion FM</title>
+			<album>Passion FM</album>
+			<image>https://2.bp.blogspot.com/-5JqnxgmN8jA/WfzWNZBMKBI/AAAAAAAAFeU/Go_Ca5e9Nn4-gzYhK9cuJk-kW2ej0iRSwCKgBGAs/s1600/Passion%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://ultrason.ice.infomaniak.ch/ultrason-high.mp3</location>
+			<title>Ultrason</title>
+			<album>Ultrason</album>
+			<image>https://4.bp.blogspot.com/-cETuXCqQVcE/WfzWNZ6m7FI/AAAAAAAAFeU/NBjhTAgFVEE1aZtGI7f7YSVEnk4Q0-1GQCKgBGAs/s1600/Ultrason%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://srv6.streaming-ingenierie.fr:8034/;stream.mp3</location>
+			<title>Up Radio</title>
+			<album>Up Radio</album>
+			<image>https://2.bp.blogspot.com/-GgI7s-8Qhb0/WfzWNaNuIjI/AAAAAAAAFeU/9NyMJyJ1g94EWSibMknJHKX1zi1nDrFQQCKgBGAs/s1600/UpRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Hainaut -----</title>
+			<image>https://1.bp.blogspot.com/-ulkIqXYRkKQ/WF5wc7gqbqI/AAAAAAAAFLE/8fcStsMZzeE8HLuXrSbjNb1mC5jTTDqtACLcB/s1600/Carte%2B-%2BProvince%2Bde%2BHainaut%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://buzzradio.ice.infomaniak.ch/buzzradio-128.mp3</location>
+			<title>Buzz Radio</title>
+			<album>Buzz Radio</album>
+			<image>https://2.bp.blogspot.com/-CHwrDldfTDI/WfzXTQgdJ0I/AAAAAAAAFfE/52-EyQbYc3wsHHKCmOkZnZT9uwIRnJz3gCKgBGAs/s1600/Buzz%2BRadio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://charlekingradio.ice.infomaniak.ch/charlekingradio.mp3</location>
+			<title>Charleking</title>
+			<album>Charleking</album>
+			<image>https://1.bp.blogspot.com/-TKbMgzJdHMw/WfzXTckhH1I/AAAAAAAAFfE/9VGF4CrnCao9XEXYIPZ-ZU5GfHLaEzpOwCKgBGAs/s1600/Charleking%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://91.121.29.128:8106/;</location>
+			<title>J600</title>
+			<album>J600</album>
+			<image>https://1.bp.blogspot.com/-qmZx-jDDu5U/WfzXTRDr1aI/AAAAAAAAFfE/Djz1d7Is7OQMp34_zpx9ama904_zrcHCwCKgBGAs/s1600/Radio%2BJ600.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lecentrefm.ice.infomaniak.ch/lecentrefm.mp3.m3u</location>
+			<title>Le Centre FM</title>
+			<album>Le Centre FM</album>
+			<image>https://1.bp.blogspot.com/-OTLtgNXDeeA/WfzXv67OKcI/AAAAAAAAFfc/l9Ll0ayMtp4UuRrplTepXYDKZLpRIT2SwCKgBGAs/s1600/Centre%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://live.libellulefm.com:8000/stream</location>
+			<title>Libellule FM</title>
+			<album>Libellule FM</album>
+			<image>https://2.bp.blogspot.com/-wSVc3mQJvpM/WfzXv2ZHLJI/AAAAAAAAFfc/JLCQeL3EigsTQ5_diO7tjo7DJfR5wkhtwCKgBGAs/s1600/Libellule%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://188.165.35.60:7150/</location>
+			<title>Ma Radio</title>
+			<album>Ma Radio</album>
+			<image>https://3.bp.blogspot.com/-x0N9K71hxaM/WfzXv6S5AjI/AAAAAAAAFfc/0JdJQpc2KRwBMC5MKGhXYvmudWYET5U0ACKgBGAs/s1600/Ma%2BRadio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://ks393340.kimsufi.com:9290/;</location>
+			<title>Max FM</title>
+			<album>Max FM</album>
+			<image>https://1.bp.blogspot.com/-L2jgUEvl17I/WfzXvz3HmMI/AAAAAAAAFfc/5x8Z-txB0I0_mdWvTq_pb5QWGDY-Z31RwCKgBGAs/s1600/Max%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://77.67.17.108:1075/mixxfm.mp3</location>
+			<title>Mixx FM</title>
+			<album>Mixx FM</album>
+			<image>https://1.bp.blogspot.com/-_p4M5_JsX7s/WfzYmqsZI3I/AAAAAAAAFgE/ngmN96ONg6ANcuvYemX1ofRAmRaicj6iQCKgBGAs/s1600/Mixx%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vt-net.org:8072/;</location>
+			<title>Pacifique FM</title>
+			<album>Pacifique FM</album>
+			<image>https://2.bp.blogspot.com/-Siz8KHx6gLI/WfzYmrB3wsI/AAAAAAAAFgE/lcGZOzmmxUEl3Kdq3VGMYBgqUd6eVxS5gCKgBGAs/s1600/Pacifique%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/pharefm_mons</location>
+			<title>Phare FM Mons</title>
+			<album>Phare FM Mons</album>
+			<image>https://1.bp.blogspot.com/-y8TZtEnloNw/WfzYmivH9JI/AAAAAAAAFgE/8yMlqaDa9TMJbouVww4KxN3HWeBb2nnigCKgBGAs/s1600/Phare%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://91.121.223.159:8000/bfm</location>
+			<title>Radio Beloeil</title>
+			<album>Radio Beloeil</album>
+			<image>https://4.bp.blogspot.com/-3yjSSrZir_s/WfzYmmz8RZI/AAAAAAAAFgE/GfSDt6cFgfc7bkPG5kFDcOmpOGZdLjGkgCKgBGAs/s1600/Radio%2BBeloeil%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://france1.coollabel-productions.com:2199/tunein/radiobonheur317.pls</location>
+			<title>Radio Bonheur</title>
+			<album>Radio Bonheur</album>
+			<image>https://1.bp.blogspot.com/-Ng0SBJcGl8Q/WfzZYSgukAI/AAAAAAAAFgg/noMSOXhalV8Q4Kz91QB_77EkDRg6RrgugCKgBGAs/s1600/Radio%2BBonheur%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://163.172.96.134:8156/;</location>
+			<title>Ramdam Musique</title>
+			<album>Ramdam Musique</album>
+			<image>https://4.bp.blogspot.com/-bxLgyKCgKIY/WfzZYS6qoyI/AAAAAAAAFgg/ZdZfeOlHoPY_eARJwdy4jA2CY5CM5W7nACKgBGAs/s1600/Ramdam%2BMusique%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://5.39.80.55:8000/live;</location>
+			<title>Radio Qui Chifel</title>
+			<album>Radio qui Chifel</album>
+			<image>https://1.bp.blogspot.com/-sYqyh91lRMs/WfzZYaOtssI/AAAAAAAAFgg/oG1WnI4O3OEgzKA07pWgLxNKNuYPqmg1ACKgBGAs/s1600/Radio%2BQui%2BChifel%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://sudradio.ice.infomaniak.ch/sudradio-96.aac</location>
+			<title>Sud Radio</title>
+			<album>Sud Radio</album>
+			<image>https://2.bp.blogspot.com/-xMnE372kD_I/WftzaVzPgaI/AAAAAAAAFZI/F6y_sI0068AFRnt44onyaJWDDLbAqclxwCKgBGAs/s1600/Sud%2BRadio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vibrationbelgique.ice.infomaniak.ch/vibrationbelgique-low.aac</location>
+			<title>Vibration Mons</title>
+			<album>Vibration Mons</album>
+			<image>https://3.bp.blogspot.com/-RVouB1nF5rc/WfzS6XJM4CI/AAAAAAAAFdE/prVPPwx-u7IuNMRKvAN4qRJUchCAp-H4wCKgBGAs/s1600/Vibration%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://youfm.ice.infomaniak.ch/youfm-96.aac</location>
+			<title>YouFM</title>
+			<album>YouFM</album>
+			<image>https://4.bp.blogspot.com/-YtbAeNbb3WA/WfzZYVo7xOI/AAAAAAAAFgg/ZHxVyq6it0sDKCat1AT5efi2ByvHeIkUgCKgBGAs/s1600/YouFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Liège -----</title>
+			<image>https://3.bp.blogspot.com/-cEUvL8EWTBQ/WF5wlcIRWsI/AAAAAAAAFLI/SoFjpBKOX60fkS0MA2221jpO1h0-PsgBgCLcB/s1600/Carte%2B-%2BProvince%2Bde%2BLi%25C3%25A8ge%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://listen.48fm.com:8000/48FM.mp3</location>
+			<title>48FM</title>
+			<album>48FM</album>
+			<image>https://4.bp.blogspot.com/-4eCWZDWg5v4/WfzeAjldf7I/AAAAAAAAFhM/1tHNvJaDV84JAWdvJ6zned9-XLuWTvhUQCKgBGAs/s1600/48FM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://equinoxefm.ddns.net:8000/stream.ogg</location>
+			<title>Equinoxe FM</title>
+			<album>Equinoxe FM</album>
+			<image>https://1.bp.blogspot.com/-PxZUxTV3PI4/WfzpWSt5sLI/AAAAAAAAFmk/iDJXByzGR_4HhzPp-8_iHG_2kgl1hBVGACKgBGAs/s1600/Equinoxe%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://impactfm2.ice.infomaniak.ch/impactfmbe-64.aac</location>
+			<title>Impact FM</title>
+			<album>Impact FM</album>
+			<image>https://2.bp.blogspot.com/-uwVI2QQvlDs/WfzeAmvuV1I/AAAAAAAAFhM/4Un34TSf7doabcCSZhlUt_L1I40STbqvQCKgBGAs/s1600/Impact%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://maximum.ice.infomaniak.ch/maximum-128.mp3</location>
+			<title>Maximum FM</title>
+			<album>Maximum FM</album>
+			<image>https://4.bp.blogspot.com/-FQSgNl9tb4U/WftzsO1PxKI/AAAAAAAAFZQ/uC2o7AWlLVI92BUA9Sc8s4uGL9tt1XJSQCKgBGAs/s1600/Maximum%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://onair.turkuazfm.be:1018/stream</location>
+			<title>Panach FM</title>
+			<album>Panach FM</album>
+			<image>https://2.bp.blogspot.com/-QOsrYMaoN_4/WfzfBjMfiVI/AAAAAAAAFhs/jtDd3HHZpkYMY8_JLJb9NSe4ZBEszq2AQCKgBGAs/s1600/Panach%2BRadio%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://wma02.fluidstream.net:8130/;stream.nsv</location>
+			<title>Radio Hitalia</title>
+			<album>Radio Hitalia</album>
+			<image>https://3.bp.blogspot.com/-wrWQmnWHbZc/WfzfBrPWKlI/AAAAAAAAFhs/_Q4FPu3cbDsfkfEAtoFptCwLjoOBKurAwCKgBGAs/s1600/Radio%2BItalia%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://roa1062fm.ice.infomaniak.ch/roa1062fm-128.mp3</location>
+			<title>Radio Ourthe-Amblève</title>
+			<album>Radio Ourthe-Ambleve</album>
+			<image>https://1.bp.blogspot.com/-vqTpn4X-8OE/WfzfBl1DVUI/AAAAAAAAFhs/zhBAF8e9FF0E8t9Tkoj_ZDEkFGTLUiv9gCKgBGAs/s1600/Radio%2BOurthe-Ambl%25C3%25A8ve%2B%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioplus23.ice.infomaniak.ch/radioplus23-48.aac</location>
+			<title>Radio Plus</title>
+			<album>Radio Plus</album>
+			<image>https://3.bp.blogspot.com/-s3AhmQ3MbhQ/Wfzfkv19pDI/AAAAAAAAFiA/kLjAalynYZk-DCo0SNqoiFscpx-UgcdHwCKgBGAs/s1600/Radio%2B%252B%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://37.187.114.62:8002/live</location>
+			<title>Radio Prima</title>
+			<album>Radio Prima</album>
+			<image>https://3.bp.blogspot.com/-Y6jNiGItS-Q/WfzfktY880I/AAAAAAAAFiA/XOIl-QeBpuQ1uQ6GIjvfPlLYrhjBWQujgCKgBGAs/s1600/Radio%2BPrima%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rcf.streamakaci.com/rcfliege.mp3</location>
+			<title>R.C.F. Liège</title>
+			<album>R.C.F. Liege</album>
+			<image>https://1.bp.blogspot.com/-IEHrhydZBx0/WfzhX6pRSvI/AAAAAAAAFiw/rVdi4k8g97csudtpHOP7962kOUpo6MKNACKgBGAs/s1600/RCF%2BLi%25C3%25A8ge%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream01.warm.fm:9002/warm128k</location>
+			<title>Warm FM</title>
+			<album>Warm FM</album>
+			<image>https://4.bp.blogspot.com/-plCzKOttotQ/Wf2MV7t-GFI/AAAAAAAAFqo/wxABi9rz1pcbirrpbAPPsg4jxEt1XiqxgCKgBGAs/s1600/Warm%2BFM%2B%253B%2B%2528002%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Namur -----</title>
+			<image>https://4.bp.blogspot.com/-cPauMeYmDyc/WF5w2iVtDhI/AAAAAAAAFLU/-FDp15tzM9Y3ngRvFiR4p9N57VRuPvirwCLcB/s1600/Carte%2B-%2BProvince%2Bde%2BNamur%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://flashfm.ice.infomaniak.ch/flashfm-128.mp3</location>
+			<title>Flash FM</title>
+			<album>Flash FM</album>
+			<image>https://1.bp.blogspot.com/-BW5VTOhwU5w/Wfzoi2fUazI/AAAAAAAAFl8/oQLSGR3nNbUqW7nLOmZihQ9oQN4Pod02QCKgBGAs/s1600/Flash%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://frequenceeghezee.ice.infomaniak.ch/frequenceeghezee-128.mp3</location>
+			<title>Frequence Eghezee</title>
+			<album>Frequence Eghezee</album>
+			<image>https://1.bp.blogspot.com/-2rwijGcaHng/WfzoiyBcZRI/AAAAAAAAFl8/vtLGZ934WWQoU5j3tP9jGdwLceBqDYs8wCKgBGAs/s1600/Frequence%2BEghezee%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://frequenceplusandenne.ice.infomaniak.ch/frequenceplusandenne-192.mp3</location>
+			<title>Frequence Plus</title>
+			<album>Frequence Plus</album>
+			<image>https://2.bp.blogspot.com/-ALiFs6lXJJQ/Wfzoi5vVK-I/AAAAAAAAFl8/nXkTGMwgLuUiUalu0Fn9cu6ItOYiFspdQCKgBGAs/s1600/Frequence%2BPlus%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://94.23.31.72:8000/hitradio.mp3</location>
+			<title>Hit Radio Namur</title>
+			<album>Hit Radio Namur</album>
+			<image>https://3.bp.blogspot.com/-GJrKPreykfA/WfzoiyJjsAI/AAAAAAAAFl8/voxoPsCbR_kOJJGSquCFgChm9ydO2xUdACKgBGAs/s1600/HitRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://78.129.163.75/stream.mp3</location>
+			<title>Must FM</title>
+			<album>Must FM</album>
+			<image>https://1.bp.blogspot.com/--bWjVKTslkw/WftzaVzMAdI/AAAAAAAAFZI/xlcuHe5Ksm0Z6EK1pC2IDaki29yS0OCWACKgBGAs/s1600/Must%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://equinoxefm.ddns.net:8000/stream.ogg</location>
+			<title>Radio Equinoxe</title>
+			<album>Radio Equinoxe</album>
+			<image>https://4.bp.blogspot.com/-h0b9IUAMTPE/WfzeAsZ_9vI/AAAAAAAAFhM/klwvO04Ii8ks4dc_RS-raq8BlDRBV6rBwCKgBGAs/s1600/Equinoxe%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://manager2.streaming-ingenierie.fr:8026/;stream.mp3</location>
+			<title>Radio Quartz</title>
+			<album>Radio Quartz</album>
+			<image>https://2.bp.blogspot.com/-Xbnivctilzk/WfzpWTXuJjI/AAAAAAAAFmk/K1_B7AOU9LQH6QWWvW7m3pejDIKA1rJegCKgBGAs/s1600/Radio%2BQuartz%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://studiooneasbl.ice.infomaniak.ch/studiooneasbl-128.mp3</location>
+			<title>Radio Studio One</title>
+			<album>Radio Studio One</album>
+			<image>https://2.bp.blogspot.com/--Uga_fleTk4/Wfzpy21yDgI/AAAAAAAAFm4/530HVy2qSPkxPSndhpj7LCKyvf4dsJ2xgCKgBGAs/s1600/Radio%2BStudio%2BOne%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.run.be:8000/run128.mp3</location>
+			<title>Radio Universitaire Namuroise (RUN)</title>
+			<album>Radio Universitaire Namuroise (RUN)</album>
+			<image>https://3.bp.blogspot.com/-YoP0fMipk3o/WfzpyyUMHJI/AAAAAAAAFm4/SIsWZwqRBnAfW_vbz2qR4qOXPv2UZlLJACKgBGAs/s1600/RUN%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Locales : Luxembourg -----</title>
+			<image>https://3.bp.blogspot.com/-OCnJ7712O44/WF5wu-wJhxI/AAAAAAAAFLM/z85MESGR57opfrY64rRBLzUtOM93Pd9NwCLcB/s1600/Carte%2B-%2BProvince%2Bde%2BLuxembourg%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>140</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://7fm2.ice.infomaniak.ch/7fm2.mp3</location>
+			<title>7FM</title>
+			<album>7FM</album>
+			<image>https://2.bp.blogspot.com/-mnMJrShWfc0/Wfzh6lf6zGI/AAAAAAAAFjE/slZzSAFqk50Yl4uInHH6638lfNfcxvlCgCKgBGAs/s1600/7FM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>141</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://maxpag.eu:8000/metropole</location>
+			<title>Metropole Radio</title>
+			<album>Metropole Radio</album>
+			<image>https://1.bp.blogspot.com/-5UMUfFpp2CU/Wfzh6uGt-UI/AAAAAAAAFjE/njkkS_Ygj6YLeoMsCKdWpJOxURfMTUTpgCKgBGAs/s1600/Metropole%2BRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>142</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://78.129.163.75/stream.mp3</location>
+			<title>Must FM</title>
+			<album>Must FM</album>
+			<image>https://1.bp.blogspot.com/--bWjVKTslkw/WftzaVzMAdI/AAAAAAAAFZI/xlcuHe5Ksm0Z6EK1pC2IDaki29yS0OCWACKgBGAs/s1600/Must%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>143</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiosud.ice.infomaniak.ch/radiosud-128.mp3</location>
+			<title>Radio Sud</title>
+			<album>Radio Sud</album>
+			<image>https://1.bp.blogspot.com/-N8EGJGI5UxM/Wfzh6iFtIsI/AAAAAAAAFjE/8OAi0JOZKQQOzqtc1lynRBMcNH3FKeg5wCKgBGAs/s1600/Radio%2BSud%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>144</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rcf.streamakaci.com/rcfsudbe.mp3</location>
+			<title>R.C.F. Sud Belgique</title>
+			<album>R.C.F. Sud Belgique</album>
+			<image>https://1.bp.blogspot.com/-rUuQPmdD7gM/WfzhX0K3BrI/AAAAAAAAFiw/6jUzC77M1swaMv6J6voVtRvNrXnPqsz0ACKgBGAs/s1600/RCF%2BSud%2BBelgique%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>145</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>* * * * * Radios Belges Germanophones * * * * *</title>
+			<image>https://4.bp.blogspot.com/--pC7bOLTwuc/WF51Hpt1RXI/AAAAAAAAFLo/TZit-0oi58MGMIG7DBVUZvq32gW1tWW4ACLcB/s1600/Carte%2B-%2BGermanophone%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>160</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://dashitradio-mp3-8000.skydisc.net:8000/dashitradio-live.mp3</location>
+			<title>100&#39;5 Das Hitradio</title>
+			<album>100.5 Das Hitradio</album>
+			<image>https://2.bp.blogspot.com/-pZDOpRLycAA/WfzrCgrzBYI/AAAAAAAAFnw/Y3A-lZfw1Gc5T_Cau0FjMKztjS3pxdmtgCKgBGAs/s1600/Fantasy%2BDance%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>161</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.brf.be/brf1-high.mp3</location>
+			<title>BRF1</title>
+			<album>BRF1</album>
+			<image>https://2.bp.blogspot.com/-OXom-ykhEz4/WfzqWRbQy_I/AAAAAAAAFnY/bPvfGKw9fwA21E_Zh5D9awZ6pYlpfSQoQCKgBGAs/s1600/BRF1%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>162</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.brf.be/brf2-high.mp3</location>
+			<title>BRF2</title>
+			<album>BRF2</album>
+			<image>https://1.bp.blogspot.com/-kOnVvvGYWTU/WfzqWVg9I_I/AAAAAAAAFnY/ckGsqFM15Us9o87-w-RoTBmNKRlFr-oaQCKgBGAs/s1600/BRF2%2B%253B%2B%2528002%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>163</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.138.154.16:8000/HQ_stream.mp3</location>
+			<title>Fantasy Dance FM</title>
+			<album>Fantasy Dance FM</album>
+			<image>https://3.bp.blogspot.com/-bLgrviIWMgE/Wf2HuCqZ8VI/AAAAAAAAFok/I1LwByoX5IUMsQs7MZxhxBrhgsiWWAlFACKgBGAs/s1600/Fantasy%2BDance%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>164</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streamserver.funkhaus.info/;stream.nsv</location>
+			<title>Radio 700</title>
+			<album>Radio 700</album>
+			<image>https://2.bp.blogspot.com/-pNa5Tngv0lo/Wfzq3OOIY3I/AAAAAAAAFnk/50MITOuBvI0eguprNgzBLHsqhbtVVDGUACKgBGAs/s1600/Radio%2B700%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>165</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio-contact.dh-media.net:7000</location>
+			<title>Radio Contact Eupen</title>
+			<album>Radio Contact Eupen</album>
+			<image>https://4.bp.blogspot.com/-kAfgm8YGntc/WfzqWX_EPoI/AAAAAAAAFnY/5IYC8XHWQpEs_gUgJMfJrIvvRmM9TjHVQCKgBGAs/s1600/Radio%2BContact%2BEupen.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>166</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>* * * * * Radios Belges Flamandes * * * * *</title>
+			<image>https://4.bp.blogspot.com/-V_YddVDe_gw/WF52kGALScI/AAAAAAAAFL8/JDzoxBUbeeo2JoVvpzEDdgkOr6KDQt-DACLcB/s1600/Carte%2B-%2BFlamande%2B%253B%2B%2528001%2529.png</image>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>200</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ketnetradio-high.mp3</location>
+			<title>Ketnet Radio</title>
+			<album>Ketnet Radio</album>
+			<image>https://1.bp.blogspot.com/-QFulsKD-ACM/Wfzi12rmhnI/AAAAAAAAFjs/fSyTTE4fLlYCKudGYZnYlhZAFnOIl27_ACKgBGAs/s1600/Ketnet%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>201</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/klara-high.mp3</location>
+			<title>Klara</title>
+			<album>Klara</album>
+			<image>https://3.bp.blogspot.com/-bOJEqg2sldI/WfzjUslHxqI/AAAAAAAAFj0/HX79mx0okhUXtMpgMktCtnrLpvcr8TLhgCKgBGAs/s1600/Klara%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>202</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/klaracontinuo-high.mp3</location>
+			<title>Klara Continuo</title>
+			<album>Klara Contunuo</album>
+			<image>https://1.bp.blogspot.com/-zv6Zu3KBqzg/WfzjUj4N9PI/AAAAAAAAFj0/GSznV65jucgOMaF1fg86rnhcmUTj7mVfACKgBGAs/s1600/Klara%2BContinuo%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>203</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/mnm-high.mp3</location>
+			<title>MNM</title>
+			<album>MNM</album>
+			<image>https://1.bp.blogspot.com/-9SzkngHXdQ4/WfzjUkKPPYI/AAAAAAAAFj0/74GrCv552lsPfwJfkINwal_MuseVTJf3QCKgBGAs/s1600/MNM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>204</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/mnm_hits-high.mp3</location>
+			<title>MNM Hits</title>
+			<album>MNM Hits</album>
+			<image>https://1.bp.blogspot.com/-UtxV7dx7mng/WfzjUiBOFOI/AAAAAAAAFj0/-w9GcKFCq3M05o1ZwSX9MUwjLbK3Tn7RgCKgBGAs/s1600/MNM%2BHits%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>205</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/radio1-high.mp3</location>
+			<title>Radio 1</title>
+			<album>Radio 1</album>
+			<image>https://2.bp.blogspot.com/-cssXSj0QOc8/Wfzj21-QclI/AAAAAAAAFkU/w2OWjLqQzEcJGIGucUuh6-dVyvYL7QtnwCKgBGAs/s1600/Radio%2B1%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>206</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ra2ant-high.mp3</location>
+			<title>Radio 2 Antwerpen</title>
+			<album>Radio 2 Antwerpen</album>
+			<image>https://1.bp.blogspot.com/-zLqoRKhHHcQ/WfzmpJmQGOI/AAAAAAAAFlI/NIGeziQ5LPYpnUDIEvtpCwTPG7TOJ61zgCKgBGAs/s1600/Radio%2B2%2BAntwerpen%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>207</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ra2vlb-high.mp3</location>
+			<title>Radio 2 Vlaams-Brabant</title>
+			<album>Radio 2 Vlaams-Brabant</album>
+			<image>https://4.bp.blogspot.com/-8oVqyKmbfjM/WfzmpD9BLZI/AAAAAAAAFlI/YCrF3GLOVrgEXe8xzLgq822PUKSJfIeegCKgBGAs/s1600/Radio%2B2%2BVlaams-Brabant%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>208</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ra2lim-high.mp3</location>
+			<title>Radio 2 Limburg</title>
+			<album>Radio 2 Limburg</album>
+			<image>https://3.bp.blogspot.com/--qu3qFUcNug/WfzmpJ2Z3XI/AAAAAAAAFlI/qV2XVBynAE8d9pW-0idpM7Lj_619OFuVQCKgBGAs/s1600/Radio%2B2%2BLimburg%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>209</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ra2ovl-high.mp3</location>
+			<title>Radio 2 Oost-Vlaanderen</title>
+			<album>Radio 2 Oost-Vlanderen</album>
+			<image>https://1.bp.blogspot.com/-LsGrz64RfUY/Wfzm1hZ1JYI/AAAAAAAAFlM/thgJow5uHaoebU7lHym5UoncQ3l6ZN_QwCKgBGAs/s1600/Radio%2B2%2BOost-Vlaanderen%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>210</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/ra2wvl-high.mp3</location>
+			<title>Radio 2 West-Vlaanderen</title>
+			<album>Radio 2 West-Vlaanderen</album>
+			<image>https://4.bp.blogspot.com/-VM4HcAHlv5g/Wfzm1mmBXeI/AAAAAAAAFlM/LYW3iUepGucODJrEaWj8YigOJtwcbIjaQCKgBGAs/s1600/Radio%2B2%2BWest-Vlaanderan%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>211</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/sporza-high.mp3</location>
+			<title>Sporza</title>
+			<album>Sporza</album>
+			<image>https://3.bp.blogspot.com/-uid8gXF4wF0/Wfzi1_o-siI/AAAAAAAAFjs/e-e9pOy3QgwPM_7z-CQAuKUe46JxDoXegCKgBGAs/s1600/Sporza%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>212</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.vrtcdn.be/stubru-high.mp3</location>
+			<title>Studio Brussel</title>
+			<album>Studio Brussel</album>
+			<image>https://2.bp.blogspot.com/-HjYOKQl2svw/Wfzi14mmNpI/AAAAAAAAFjs/kx_wZTaagUcD5hoOHiHxuvmhHjmQXKQMACKgBGAs/s1600/Sudio%2BBrussel%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>213</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streams.lazernet.be:2710/;64182068873197stream.nsv</location>
+			<title>Antwerpen FM</title>
+			<album>Antwerpen FM</album>
+			<image>https://2.bp.blogspot.com/-fyeabs-WECY/Wf2IkEeBi_I/AAAAAAAAFpQ/YUeQKU_DcSAXbGsRTBZ17fpAiAjHwyPhwCKgBGAs/s1600/Antwerpen%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>221</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://91.196.171.99/studioajoin</location>
+			<title>City Ambi</title>
+			<album>City Ambi</album>
+			<image>https://4.bp.blogspot.com/-x2TBc_lBr08/Wf2IE2Ks9EI/AAAAAAAAFpA/UhQkK_TF41kpybeAajTbjJGBX2ddOzFXACKgBGAs/s1600/City%2BAmbi%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>222</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://91.196.171.99/citymusic</location>
+			<title>City Music</title>
+			<album>City Music</album>
+			<image>https://4.bp.blogspot.com/-zt2G3f3rxXo/Wf2IE5SOqnI/AAAAAAAAFpA/GpVKlkENdhUreFQx5g8jOIxnpsWAC6JtwCKgBGAs/s1600/City%2BMusic%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>223</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.clubfmserver.be:8000/clubfm.mp3</location>
+			<title>Club FM</title>
+			<album>Club FM</album>
+			<image>https://2.bp.blogspot.com/-hMCC3Mgx-IQ/Wf2IkI7xgSI/AAAAAAAAFpQ/ZOQXSOOBeGs4_Ltm7Q88FRYBGKq50azyACKgBGAs/s1600/Club%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>224</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://77.92.64.44:8045/stream.mp3</location>
+			<title>Crooze FM</title>
+			<album>Crooze FM</album>
+			<image>https://2.bp.blogspot.com/-Ss4EMIJp2wU/Wf2IkIKI0oI/AAAAAAAAFpQ/4ZpI96kZI6oACuMRLybErt9RQAiCrXQNwCKgBGAs/s1600/Crooze%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>225</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.clubfmserver.be:8000/family.mp3</location>
+			<title>Family Radio</title>
+			<album>Family Radio</album>
+			<image>https://2.bp.blogspot.com/-VRzhANoXMZI/Wf2IE3aWNLI/AAAAAAAAFpA/u8179guaKAcGXWfOvsQy2Y33g51SloHGgCKgBGAs/s1600/Family%2BRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>226</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.fmbrussel.be</location>
+			<title>FM Brussel</title>
+			<album>FM Brussel</album>
+			<image>https://3.bp.blogspot.com/-7iRHFTQTqTk/Wf2IkOY7FmI/AAAAAAAAFpQ/qeOgw_rp9GYtvMJzMlz2gf8IbBNDiyN_ACKgBGAs/s1600/FM%2BBrussel%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>227</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://94.23.48.124:8000/;stream/1</location>
+			<title>Hit Fm</title>
+			<album>Hit FM</album>
+			<image>https://3.bp.blogspot.com/-eKMkey-zHME/Wf2JBYxSiDI/AAAAAAAAFps/OJLPkqYRHwsO2e8fvrP-8jy9TqU3evZswCKgBGAs/s1600/Hit%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>228</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast-qmusic.cdp.triple-it.nl/JOEfm_be_live_128.mp3</location>
+			<title>Joe FM</title>
+			<album>Joe FM</album>
+			<image>https://4.bp.blogspot.com/-KfCTjlipWXg/Wfzj2wS_GoI/AAAAAAAAFkU/c9tfY_wERJwfstWwiEdVUp_F261hNUjswCKgBGAs/s1600/Joe%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>229</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nostalgiewhatafeeling.ice.infomaniak.ch/nostalgiewhatafeeling-128.mp3</location>
+			<title>Nostalgie Vlaanderen</title>
+			<album>Nostalgie Vlaanderen</album>
+			<image>https://1.bp.blogspot.com/-oKX6IWcw6O8/WfzkJhkuBxI/AAAAAAAAFkc/eqSuAvV0Fq4uUIxcu_09e-ehLMsmFZcagCKgBGAs/s1600/Nostalgie%2BVL%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>230</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast-qmusic.cdp.triple-it.nl/Qmusic_be_live_128.mp3</location>
+			<title>Q-Music</title>
+			<album>Q-Music</album>
+			<image>https://2.bp.blogspot.com/-HjYOKQl2svw/Wfzi14mmNpI/AAAAAAAAFjs/kx_wZTaagUcD5hoOHiHxuvmhHjmQXKQMACKgBGAs/s1600/Sudio%2BBrussel%2B%253B%2B%2528001%2529.png</image>
+			<image>https://1.bp.blogspot.com/-7Qoti_iQ1vc/Wfzi1w803jI/AAAAAAAAFjs/pOwYHUZeh-0GEwhZYpnl0WdRgN-KNINjgCKgBGAs/s1600/Q%2BMusic%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>231</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.radiomaria.be:8000/RadioMaria-96?type=.mp3</location>
+			<title>Radio Maria</title>
+			<album>Radio Maria</album>
+			<image>https://3.bp.blogspot.com/-XzsDUFX6jZ4/Wf2JBYmmN2I/AAAAAAAAFps/ukRtkmjikoUrghY7efCfpixrpVRbsNDygCKgBGAs/s1600/Radio%2BMaria%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>232</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.intronic.nl/rgrfm</location>
+			<title>RGR FM</title>
+			<album>RGR FM</album>
+			<image>https://1.bp.blogspot.com/-PzLoL5mse8c/Wf2JBeGTcjI/AAAAAAAAFps/31I0_6zjAYco4YL8aEf_8o8u5-RYULUhACKgBGAs/s1600/RGR%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>233</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://jwmp3.topradio.be/topradio.mp3</location>
+			<title>Top Radio</title>
+			<album>Top Radio</album>
+			<image>https://2.bp.blogspot.com/-ZF4Bjqtle-Q/WfzkJo1mvII/AAAAAAAAFkc/9L9MJWFKViYeIwGTD5lxMdWLcXD5uYexACKgBGAs/s1600/Top%2BRadio%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>234</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.trendyfm.be:80</location>
+			<title>Trendy FM</title>
+			<album>Trendy FM</album>
+			<image>https://1.bp.blogspot.com/--oPDlgYSBYo/Wf2JW8O3rPI/AAAAAAAAFp4/7RDcZwKcA5cEYQR9W6NkmcscisTWDgPRgCKgBGAs/s1600/Trendy%2BFM%2B%253B%2B%2528001%2529.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>235</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.vbro.be:9100/vbro</location>
+			<title>VBRO Radio</title>
+			<album>VBRO Radio</album>
+			<image>https://2.bp.blogspot.com/-hkkNrryl8q8/Wf2JW526lEI/AAAAAAAAFp4/P2WGmwRdRiUExGnFzT3UPUh-ts3QYi2xgCKgBGAs/s1600/VBRO%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>236</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://lb.zenfm.be/zenfm.mp3</location>
+			<title>Zen FM</title>
+			<album>Zen FM</album>
+			<image>https://1.bp.blogspot.com/--g9HfAPui18/Wf2JW2vfulI/AAAAAAAAFp4/74hZgm5oIpIK_dkEjk8fsi1o7qSSI_WqgCKgBGAs/s1600/Zen%2BFM%2B%253B%2B%2528001%2529.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>237</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+
+			<vlc:item tid="40"/>
+			<vlc:item tid="41"/>
+			<vlc:item tid="42"/>
+			<vlc:item tid="43"/>
+			<vlc:item tid="44"/>
+			<vlc:item tid="45"/>
+			<vlc:item tid="46"/>
+			<vlc:item tid="47"/>
+			<vlc:item tid="48"/>
+			<vlc:item tid="49"/>
+			<vlc:item tid="50"/>
+			<vlc:item tid="51"/>
+
+			<vlc:item tid="60"/>
+			<vlc:item tid="61"/>
+			<vlc:item tid="62"/>
+			<vlc:item tid="63"/>
+			<vlc:item tid="64"/>
+			<vlc:item tid="65"/>
+			<vlc:item tid="66"/>
+			<vlc:item tid="67"/>
+
+			<vlc:item tid="80"/>
+			<vlc:item tid="81"/>
+			<vlc:item tid="82"/>
+			<vlc:item tid="83"/>
+			<vlc:item tid="84"/>
+			<vlc:item tid="85"/>
+			<vlc:item tid="86"/>
+			<vlc:item tid="87"/>
+			<vlc:item tid="88"/>
+			<vlc:item tid="89"/>
+			<vlc:item tid="90"/>
+			<vlc:item tid="91"/>
+			<vlc:item tid="92"/>
+			<vlc:item tid="93"/>
+			<vlc:item tid="94"/>
+			<vlc:item tid="95"/>
+			<vlc:item tid="96"/>
+			<vlc:item tid="97"/>
+
+			<vlc:item tid="100"/>
+			<vlc:item tid="101"/>
+			<vlc:item tid="102"/>
+			<vlc:item tid="103"/>
+			<vlc:item tid="104"/>
+			<vlc:item tid="105"/>
+			<vlc:item tid="106"/>
+			<vlc:item tid="107"/>
+			<vlc:item tid="108"/>
+			<vlc:item tid="109"/>
+			<vlc:item tid="110"/>
+			<vlc:item tid="111"/>
+
+			<vlc:item tid="120"/>
+			<vlc:item tid="121"/>
+			<vlc:item tid="122"/>
+			<vlc:item tid="123"/>
+			<vlc:item tid="124"/>
+			<vlc:item tid="125"/>
+			<vlc:item tid="126"/>
+			<vlc:item tid="127"/>
+			<vlc:item tid="128"/>
+			<vlc:item tid="129"/>
+
+			<vlc:item tid="140"/>
+			<vlc:item tid="141"/>
+			<vlc:item tid="142"/>
+			<vlc:item tid="143"/>
+			<vlc:item tid="144"/>
+			<vlc:item tid="145"/>
+
+			<vlc:item tid="160"/>
+			<vlc:item tid="161"/>
+			<vlc:item tid="162"/>
+			<vlc:item tid="163"/>
+			<vlc:item tid="164"/>
+			<vlc:item tid="165"/>
+			<vlc:item tid="166"/>
+
+			<vlc:item tid="200"/>
+			<vlc:item tid="201"/>
+			<vlc:item tid="202"/>
+			<vlc:item tid="203"/>
+			<vlc:item tid="204"/>
+			<vlc:item tid="205"/>
+			<vlc:item tid="206"/>
+			<vlc:item tid="207"/>
+			<vlc:item tid="208"/>
+			<vlc:item tid="209"/>
+			<vlc:item tid="210"/>
+			<vlc:item tid="211"/>
+			<vlc:item tid="212"/>
+			<vlc:item tid="213"/>
+
+			<vlc:item tid="221"/>
+			<vlc:item tid="222"/>
+			<vlc:item tid="223"/>
+			<vlc:item tid="224"/>
+			<vlc:item tid="225"/>
+			<vlc:item tid="226"/>
+			<vlc:item tid="227"/>
+			<vlc:item tid="228"/>
+			<vlc:item tid="229"/>
+			<vlc:item tid="230"/>
+			<vlc:item tid="231"/>
+			<vlc:item tid="232"/>
+			<vlc:item tid="233"/>
+			<vlc:item tid="234"/>
+			<vlc:item tid="235"/>
+			<vlc:item tid="236"/>
+			<vlc:item tid="237"/>
+	</extension>
+</playlist>
