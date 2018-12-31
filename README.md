@@ -1,4 +1,23 @@
-# Instructions to creete Volumio's vm
+# Usefull commmands
+
+- Restart volumio using PL of Classic21man 
+```bash
+http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21
+HTTP/1.1 200 OK
+```
+
+- Install cron and configure it to restart PL when volumio boots
+```bash
+apt-get install cron
+systemctl status cron
+```
+
+- Edit the cron config file`/edit/crontab` and add this line. **Remark**: Change the name of the playlist
+```bash
+@reboot root curl "http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21"
+```
+
+# Instructions to create Volumio's vm
 
 - Download PC(x86/x64) image from [volumio](http://updates.volumio.org/x86/volumio/2.513/volumio-2.513-2018-12-07-x86.img.zip) web site and unzip it
 ```bash
