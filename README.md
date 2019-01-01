@@ -1,10 +1,14 @@
 # Usefull commands
 
-- Restart volumio using PL of Classic21man 
+## Play a playlist
+
+- Restart volumio using the Playlist of Classic21's [file](radio-playlist/PL_Classic21.json) 
 ```bash
 http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21
 HTTP/1.1 200 OK
 ```
+
+## Automate to restart the Web radio using its Playlist
 
 - Install cron and configure it to restart PL when volumio boots
 ```bash
