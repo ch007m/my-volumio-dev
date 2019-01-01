@@ -10,13 +10,13 @@ HTTP/1.1 200 OK
 
 ## Automate to restart the Web radio using its Playlist
 
-- Install cron and configure it to restart PL when volumio boots
+- Install cron and check if it works
 ```bash
 apt-get install cron
 systemctl status cron
 ```
 
-- Add a bash script file `/home/volumio/playlist.sh` to check if volumio has started in order to launch the playlist
+- Add a bash script file `/home/volumio/playlist.sh` to check if volumio web server has started in order to launch the playlist
 ```bash
 #/bin/sh
  
@@ -33,7 +33,7 @@ volumio@volumio:~$
 ```
 **Remark**: Change the name of the playlist
 
-- Edit the cron config file`/edit/crontab` and add this line.
+- Edit the cron config file`/edit/crontab` and add this line which is used at boot time.
 ```bash
 @reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
 ```
