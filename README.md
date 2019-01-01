@@ -8,7 +8,7 @@ http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21
 HTTP/1.1 200 OK
 ```
 
-## Automate to restart the Web radio using its Playlist
+## Automate the restart of the Web radio using a Playlist
 
 - Install cron and check if it works
 ```bash
