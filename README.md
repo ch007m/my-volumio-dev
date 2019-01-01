@@ -1,4 +1,4 @@
-# Usefull commmands
+# Usefull commands
 
 - Restart volumio using PL of Classic21man 
 ```bash
@@ -12,9 +12,26 @@ apt-get install cron
 systemctl status cron
 ```
 
-- Edit the cron config file`/edit/crontab` and add this line. **Remark**: Change the name of the playlist
+- Add a bash script file `/home/volumio/playlist.sh` to check if volumio has started in order to launch the playlist
 ```bash
-@reboot root curl "http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21"
+#/bin/sh
+ 
+volumio=localhost:3000/api/v1/commands
+until $(curl --silent --output /dev/null --head --fail ${volumio}); do
+   echo "We wait till volumio is up and running"
+   sleep 10s
+done
+
+sleep 20s
+echo "Volumio server is running, so we can launch our playlist"
+curl localhost:3000/api/v1/commands/?cmd='playplaylist&name=PL_Classic21'
+volumio@volumio:~$ 
+```
+**Remark**: Change the name of the playlist
+
+- Edit the cron config file`/edit/crontab` and add this line.
+```bash
+@reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
 ```
 
 # Instructions to create Volumio's vm
