@@ -1,5 +1,8 @@
 #/bin/sh
 
+# Copy My web radios till problem is fixed
+cp /home/volumio/my-web-radio /data/favourites/my-web-radio
+
 volumio=localhost:3000/api/v1/commands
 until $(curl --silent --output /dev/null --head --fail ${volumio}); do
    echo "We wait till volumio is up and running"
