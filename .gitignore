@@ -2,6 +2,7 @@ Volumio2/
 Volumio2-UI/
 volumio-plugins
 .idea/
+.DS_Store
 volumio-2.513-2018-12-07-x86.img
 volumio-2.513-2018-12-07-x86.vdi
 deezer/
