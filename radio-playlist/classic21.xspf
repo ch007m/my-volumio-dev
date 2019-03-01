@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>https://radios.rtbf.be/classic21-128.mp3</location>
+			<image>https://2.bp.blogspot.com/-wvn-ZdCM21Y/WqwdYYCCCTI/AAAAAAAAG1Q/X-XBH4JL37YwIbvsbO8RWRcg09A8Rj2zgCKgBGAs/s1600/VLC%2B-%2BClassic%2B21%2B%253B%2B%2528001%2529.pn</image>
+			<title>Classic 21</title>
+			<album>Classic 21</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+</playlist>
