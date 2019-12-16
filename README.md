@@ -1,4 +1,13 @@
-# Usefull commands
+Table of Contents
+=================
+
+   * [Useful commands](#useful-commands)
+      * [Play a playlist](#play-a-playlist)
+      * [Automate the restart of the Web radio using a Playlist](#automate-the-restart-of-the-web-radio-using-a-playlist)
+   * [Instructions to create Volumio's vm](#instructions-to-create-volumios-vm)
+   * [Create a new Volumio plugin project](#create-a-new-volumio-plugin-project)
+
+# Useful commands
 
 ## Play a playlist
 
