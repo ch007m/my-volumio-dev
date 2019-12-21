@@ -7,6 +7,25 @@ Table of Contents
    * [Instructions to create Volumio's vm](#instructions-to-create-volumios-vm)
    * [Create a new Volumio plugin project](#create-a-new-volumio-plugin-project)
 
+# Configuration
+
+- Adress IP : 192.168.1.100
+- To enable ssh, follow the instructions here: -> https://volumio.github.io/docs/User_Manual/SSH.html and access the server at this address
+  `http://volumio.local/dev`
+- By default, `vi` is not installed OOTB. To install it, follow these instructions:
+  ```bash
+  sudo apt-get update
+  sudo apt-get install vim
+  ```
+- To use the list of favorites web radio, create a json file and next deploy it.
+  ssh to the VM, backup the existing and next copy the new file `radio-playlist/volumio-radios.json` to the path
+  ```bash
+  ssh volumio@192.168.1.100
+  cp /data/favourites/my-web-radio /data/favourites/my-web-radio.bk
+  touch my-web-radio
+  cp my-web-radio /data/favourites/my-web-radio
+  ```
+                   
 # Useful commands
 
 ## Play a playlist
@@ -44,6 +63,30 @@ volumio@volumio:~$
 
 - Edit the cron config file`/edit/crontab` and add this line which is used at boot time.
 ```bash
+@reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
+```
+- Example of `/edit/crontab` file updated
+```bash
+-rw-r--r-- 1 root root 913 Jan  1  2019 /etc/crontab
+root@volumio:~# cat /etc/crontab
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+MAILTO=""
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m h dom mon dow user	command
+17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+#*/2 *   * * *   volumio    echo "salut ....." >> /var/log/cron.log
+
+## Reboot and use playlist defined / default
 @reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
 ```
 
