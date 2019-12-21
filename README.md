@@ -9,8 +9,10 @@ Table of Contents
 
 # Configuration
 
-- Adress IP : 192.168.1.100
-- To enable ssh, follow the instructions here: -> https://volumio.github.io/docs/User_Manual/SSH.html and access the server at this address
+- Address IP used for the wireless network : `192.168.1.100`
+- DAC model: `Allo BOSS - Raspberry Pi "Master" DAC v1.2`
+- Output: `Jack`
+- To enable ssh, follow the instructions [here](https://volumio.github.io/docs/User_Manual/SSH.html) and access the server at this address
   `http://volumio.local/dev`
 - By default, `vi` is not installed OOTB. To install it, follow these instructions:
   ```bash
