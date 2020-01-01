@@ -32,10 +32,34 @@ Table of Contents
 
 ## Play a playlist
 
-- Restart volumio using the Playlist of Classic21's [file](radio-playlist/PL_Classic21.json) 
+- SSH to the volumio vm and create a playlist file `Classic21` under the folder `/data/playlist`
 ```bash
-http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=PL_Classic21
-HTTP/1.1 200 OK
+cd /data/playlist
+touch Classic21
+cat <<EOF > test.txt Classic21
+[{"service":"webradio","uri":"https://radios.rtbf.be/classic21-128.mp3","title":"Classic21","albumart":"/albumart"}]
+EOF
+```
+- To use it, restart volumio and next execute the following curl/http query to use the playlist of Classic21's [file](radio-playlist/PL_Classic21.json) 
+```bash
+http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=Classic21
+ HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+Date: Wed, 01 Jan 2020 13:48:11 GMT
+ETag: W/"38-oG+PiIBYVseelqjF9RMXvNTQ2Q0"
+Vary: Accept-Encoding
+X-Powered-By: Express
+
+{
+    "response": "playplaylist Success",
+    "time": 1577886491442
+}
+[1]  + 28205 done       http volumio.local:3000/api/v1/commands/?cmd=playplaylist
 ```
 
 ## Automate the restart of the Web radio using a Playlist
@@ -58,8 +82,7 @@ done
 
 sleep 20s
 echo "Volumio server is running, so we can launch our playlist"
-curl localhost:3000/api/v1/commands/?cmd='playplaylist&name=PL_Classic21'
-volumio@volumio:~$ 
+curl localhost:3000/api/v1/commands/?cmd='playplaylist&name=Classic21' 
 ```
 **Remark**: Change the name of the playlist
 
@@ -90,6 +113,33 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 ## Reboot and use playlist defined / default
 @reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
+```
+
+# Wifi network issue
+
+- Read the following [ticket](https://github.com/volumio/Volumio2/issues/926) and apply the bash script
+```bash
+sudo mkdir /usr/local/bin/wifi-check 
+cd /usr/local/bin/wifi-check 
+sudo nano wifi-check.sh 
+    #! /bin/sh 
+ 
+    ssid=$(/sbin/iwgetid --raw) 
+ 
+    if [ -z "$ssid" ] 
+    then 
+        echo "Wifi is down, reconnecting..." 
+        /sbin/ifconfig wlan0 down 
+        sleep 5 
+        systemctl restart wireless 
+    fi 
+ 
+    echo "wifi-check done" 
+ 
+sudo chmod +x /usr/local/bin/wifi-check/wifi-check.sh 
+ 
+sudo crontab -e 
+    */5 * * * * /usr/local/bin/wifi-check/wifi-check.sh 
 ```
 
 # Instructions to create Volumio's vm
