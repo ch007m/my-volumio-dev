@@ -19,13 +19,14 @@ Table of Contents
   sudo apt-get update
   sudo apt-get install vim
   ```
-- To use the list of favorites web radio, create a json file and next deploy it.
-  ssh to the VM, backup the existing and next copy the new file `radio-playlist/my-web-radio` to the path
+- To use the list of your web or favourites radio, create a json file and next deploy it.
+- ssh to the VM, backup the existing and next copy the files: `radio-playlist/my-web-radio`, `radio-playlist/radio-favourites`
   ```bash
   ssh volumio@192.168.1.100
   cp /data/favourites/my-web-radio /data/favourites/my-web-radio.bk
-  touch my-web-radio
+  TODO - Add scp command
   cp my-web-radio /data/favourites/my-web-radio
+  cp radio-favourites /data/favourites/radio-favourites
   ```
                    
 # Useful commands
@@ -40,9 +41,9 @@ cat <<EOF > Classic21
 [{"service":"webradio","uri":"https://radios.rtbf.be/classic21-128.mp3","title":"Classic21","albumart":"/albumart"}]
 EOF
 ```
-- To use it, restart volumio and next execute the following curl/http query to use the playlist of Classic21's [file](radio-playlist/PL_Classic21.json) 
+- To use it, restart volumio and next execute the following curl/http query to use the playlist of Classic21's [file](radio-playlist/Classic21) 
 ```bash
-http volumio.local:3000/api/v1/commands/?cmd=playplaylist&name=Classic21
+http volumio.local:3000/api/v1/commands/?cmd='playplaylist&name=Classic21'
  HTTP/1.1 200 OK
 Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With
 Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
@@ -114,6 +115,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 ## Reboot and use playlist defined / default
 @reboot volumio /home/volumio/start-playlist.sh >> /var/log/cron.log
 ```
+
+**NOTE**: Ticket created to track this problem : https://github.com/volumio/Volumio2/issues/1693
 
 # Wifi network issue
 
