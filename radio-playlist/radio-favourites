@@ -10,5 +10,5 @@
  {"service":"webradio","uri":"https://radios.rtbf.be/laprem1ere-128.mp3","title":"La Premiere","icon":"fa-microphone"},
  {"service":"webradio","uri":"http://audiostream.rtl.be/contactfr192","title":"Contact","icon":"fa-microphone"},
  {"service":"webradio","uri":"http://icecast.rtl.fr:80/rtl2-1-44-128","title":"RTL2","icon":"fa-microphone"},
- {"service":"webradio","uri":"http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3","title":"Europe1","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3","title":"Europe1","icon":"fa-microphone"}
 ]
