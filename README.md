@@ -13,7 +13,7 @@ needed to install your favourite web radios, ...
 
 ## Configuration of volumio post SD card created
 
-- Address IP used for the wireless network : `192.168.1.100`
+- Static IP addresses used for the wireless network : `192.168.1.90` and `192.168.100` for the wired network
 - DAC model: `Allo BOSS - Raspberry Pi "Master" DAC v1.2`
 - Output: `Jack`
 - To enable ssh, follow the instructions [here](https://volumio.github.io/docs/User_Manual/SSH.html) and access the server at this address
@@ -23,14 +23,10 @@ needed to install your favourite web radios, ...
   sudo apt-get update
   sudo apt-get install vim
   ```
-- To use the list of your web or favourites radio, create a json file and next deploy it.
-- ssh to the VM, backup the existing and next copy the files: `radio-playlist/my-web-radio`, `radio-playlist/radio-favourites`
+- To use the list of your web or favourites radio, scp the following files: `radio-playlist/my-web-radio`, `radio-playlist/radio-favourites`
   ```bash
-  ssh volumio@192.168.1.100
-  cp /data/favourites/my-web-radio /data/favourites/my-web-radio.bk
-  TODO - Add scp command
-  cp my-web-radio /data/favourites/my-web-radio
-  cp radio-favourites /data/favourites/radio-favourites
+  sshpass -p "volumio" scp radio-playlist/my-web-radio volumio@192.168.1.100:/data/favourites/
+  sshpass -p "volumio" scp radio-playlist/radio-favourites volumio@192.168.1.100:/data/favourites/
   ```
                   
 ## Play a playlist
