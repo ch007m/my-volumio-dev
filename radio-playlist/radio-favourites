@@ -1,0 +1,14 @@
+[
+ {"service":"webradio","uri":"https://radios.rtbf.be/classic21-128.mp3","title":"Classic21","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://streamingp.shoutcast.com/NostalgiePremium-mp3","title":"Nostalgie","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://streamingp.shoutcast.com/NostalgieLove","title":"Nostalgie Love","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://radios.rtbf.be/vivacharleroi-128.mp3","title":"Vivacite Charleroi","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://radios.rtbf.be/pure-128.mp3","title":"Pure","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://nrjbe.ice.infomaniak.ch/nrjbe-high.mp3","title":"NRJ","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://radios.rtbf.be/wr-viva-xmas-128.mp3","title":"Noel - Vivacite","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://cdn.nrjaudio.fm/adwz1/fr/55310/mp3_128.mp3","title":"Noel - Nostalgie","icon":"fa-microphone"},
+ {"service":"webradio","uri":"https://radios.rtbf.be/laprem1ere-128.mp3","title":"La Premiere","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://audiostream.rtl.be/contactfr192","title":"Contact","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://icecast.rtl.fr:80/rtl2-1-44-128","title":"RTL2","icon":"fa-microphone"},
+ {"service":"webradio","uri":"http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3","title":"Europe1","icon":"fa-microphone"},
+]

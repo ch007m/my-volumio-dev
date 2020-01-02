@@ -20,7 +20,7 @@ Table of Contents
   sudo apt-get install vim
   ```
 - To use the list of favorites web radio, create a json file and next deploy it.
-  ssh to the VM, backup the existing and next copy the new file `radio-playlist/volumio-radios.json` to the path
+  ssh to the VM, backup the existing and next copy the new file `radio-playlist/my-web-radio` to the path
   ```bash
   ssh volumio@192.168.1.100
   cp /data/favourites/my-web-radio /data/favourites/my-web-radio.bk
@@ -36,7 +36,7 @@ Table of Contents
 ```bash
 cd /data/playlist
 touch Classic21
-cat <<EOF > test.txt Classic21
+cat <<EOF > Classic21
 [{"service":"webradio","uri":"https://radios.rtbf.be/classic21-128.mp3","title":"Classic21","albumart":"/albumart"}]
 EOF
 ```
@@ -119,27 +119,30 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 - Read the following [ticket](https://github.com/volumio/Volumio2/issues/926) and apply the bash script
 ```bash
-sudo mkdir /usr/local/bin/wifi-check 
+mkdir /usr/local/bin/wifi-check 
 cd /usr/local/bin/wifi-check 
-sudo nano wifi-check.sh 
-    #! /bin/sh 
- 
-    ssid=$(/sbin/iwgetid --raw) 
- 
-    if [ -z "$ssid" ] 
-    then 
-        echo "Wifi is down, reconnecting..." 
-        /sbin/ifconfig wlan0 down 
-        sleep 5 
-        systemctl restart wireless 
-    fi 
- 
-    echo "wifi-check done" 
- 
-sudo chmod +x /usr/local/bin/wifi-check/wifi-check.sh 
+touch wifi-check.sh 
+
+cat <<EOF > wifi-check.sh 
+#! /bin/sh 
+
+ssid=$(/sbin/iwgetid --raw) 
+
+if [ -z "$ssid" ] 
+then 
+    echo "Wifi is down, reconnecting..." 
+    /sbin/ifconfig wlan0 down 
+    sleep 5 
+    systemctl restart wireless 
+fi 
+
+echo "wifi-check done" 
+EOF
+
+chmod +x wifi-check.sh 
  
 sudo crontab -e 
-    */5 * * * * /usr/local/bin/wifi-check/wifi-check.sh 
+    */5 * * * * /usr/local/bin/wifi-check/wifi-check.sh
 ```
 
 # Instructions to create Volumio's vm
