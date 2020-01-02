@@ -1,14 +1,17 @@
-Table of Contents
-=================
+# Introduction
 
-   * [Table of Contents](#table-of-contents)
-   * [Configuration](#configuration)
-   * [Useful commands](#useful-commands)
-      * [Play a playlist](#play-a-playlist)
-      * [Automate the restart of the Web radio using a Playlist](#automate-the-restart-of-the-web-radio-using-a-playlist)
-   * [Wifi network issue](#wifi-network-issue)
+The following document includes information, instructions about how to install, configure volumio on raspberry and tricks 
+needed to install your favourite web radios, ...
 
-# Configuration
+## Table of Contents
+
+   * [Configuration of volumio post SD card created](#configuration-of-volumio-post-sd-card-created)
+   * [Play a playlist](#play-a-playlist)
+   * [Automate the restart of the Web radio using a Playlist](#automate-the-restart-of-the-web-radio-using-a-playlist)
+   * [Issues](#issues)
+      * [Wifi network](#wifi-network)
+
+## Configuration of volumio post SD card created
 
 - Address IP used for the wireless network : `192.168.1.100`
 - DAC model: `Allo BOSS - Raspberry Pi "Master" DAC v1.2`
@@ -29,9 +32,7 @@ Table of Contents
   cp my-web-radio /data/favourites/my-web-radio
   cp radio-favourites /data/favourites/radio-favourites
   ```
-                   
-# Useful commands
-
+                  
 ## Play a playlist
 
 - SSH to the volumio vm and create a playlist file `Classic21` under the folder `/data/playlist`
@@ -119,7 +120,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 **NOTE**: Ticket created to track this problem : https://github.com/volumio/Volumio2/issues/1693
 
-# Wifi network issue
+## Issues
+ 
+### Wifi network
 
 - Read the following [ticket](https://github.com/volumio/Volumio2/issues/926) and apply the bash script
 ```bash
