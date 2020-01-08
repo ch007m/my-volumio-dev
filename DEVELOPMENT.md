@@ -1,3 +1,20 @@
+# How to develop and debug a plugin
+
+- From a terminal, secure copy the files deployed on your raspberry Pi from the `/volumio` and `/data` folders
+  ```bash
+  scp -r volumio@192.168.1.100:/data ./remote
+  scp -r volumio@192.168.1.100:/volumio ./remote
+  ```
+- Create a new project under webstorm and import the data folder  
+- Next, setup a tunnel between your local machine and the `raspberry Pi`
+  ```bash
+  ssh -f volumio@192.168.1.100 -L 5858:localhost:5858 -N
+  ```
+- Add a `nodejs` remote debugger from webstorm by electing from the menu `Edit configuration > Attach to Node.js/Chrome ` to call the nodejs application using the tunnel
+- Specify `localhost` as host and `9229` as port number
+- Stop the nodejs service `systemctl stop volumio.service`
+- Next, launch nodejs application with debug option `node --inspect-brk /volumio/index.js` within the Pi Box
+
 # Instructions to create Volumio's vm
 
 - Download PC(x86/x64) image from [volumio](http://updates.volumio.org/x86/volumio/2.513/volumio-2.513-2018-12-07-x86.img.zip) web site and unzip it
